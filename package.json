@@ -23,10 +23,10 @@
     "stylelint-config-standard-scss": "^6.1.0"
   },
   "lint-staged": {
-    "*.{scss}": [
+    "*.scss": [
       "stylelint",
-      "prettier"
+      "prettier --check"
     ],
-    "*.{pug,md,json}": "prettier"
+    "*.{pug,md,json}": "prettier --check"
   }
 }
