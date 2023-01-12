@@ -16,3 +16,4 @@ jobs:
       - run: npm run stylelint:check
       - run: npm run format:check
       - run: npm run markdown:check
+      - run: npm run build
